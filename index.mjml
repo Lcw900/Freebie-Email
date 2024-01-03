@@ -1,0 +1,390 @@
+<mjml>
+  <mj-head>
+    <mj-title>Freebie Email</mj-title>
+    <mj-preview>Preview of my email</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif,"></mj-all>
+    </mj-attributes>
+    <mj-style>
+      * {
+      box-sizing: border-box;
+      }
+      <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins:700" />
+      <mj-font name="Arial" href="https://fonts.googleapis.com/css?family=Arial:300,400,500,700" />
+      .home {
+      text-decoration: none;
+      color: #191919;
+      }
+
+      .home:hover {
+      text-decoration: underline;
+      }
+
+
+
+
+    </mj-style>
+
+    <mj-style inline="inline">
+      @media only screen and (max-width: 480px) {
+        .logo {
+          align: center !important;
+        }
+      }
+    </mj-style>
+
+
+  </mj-head>
+  <mj-body >
+
+    <mj-section padding-top="0" background-color="#ffffff">
+      <mj-column>
+        <mj-section background-color="#ffffff" flex-shrink="0" align="center">
+
+
+
+        </mj-section>
+        <mj-section padding="0" background-color="#ffffff">
+          <mj-column padding="0 80px 0 15px" align="start">
+            <mj-image css-class="logo" display="flex" align="start" flex-shrink="0" height="30px" width="137px" align="left" src="./assets/logo.png" alt="" / padding="10px 0">
+
+          </mj-column>
+
+
+
+          <mj-column padding-left="20px">
+            <mj-navbar padding="0" align="left">
+              <mj-navbar-link href="#home" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="16px" font-style="normal" font-weight="700" line-height="26px" padding="15px 4px 15px 0px" width="49px" height="26px">Home</mj-navbar-link>
+              <mj-navbar-link href="#about" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="16px" font-style="normal" font-weight="700" line-height="26px" padding="15px 4px 15px 2px" width="49px" height="26px">About</mj-navbar-link>
+              <mj-navbar-link href="#service" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="16px" font-style="normal" font-weight="700" line-height="26px" padding="15px 4px 15px 2px" width="49px" height="26px">service</mj-navbar-link>
+              <mj-navbar-link href="#contact" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="16px" font-style="normal" font-weight="700" line-height="26px" padding="15px 4px 15px 2px" width="49px" height="26px">Contact</mj-navbar-link>
+            </mj-navbar>
+          </mj-column>
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-wrapper background-color="#ffffff" width="600px" height="378px" background-url="./assets/Hero.png">
+      <mj-section>
+        <mj-column padding="50px 0 26px 0">
+          <mj-section align="center" width="520px" height="96px" padding-bottom="10px">
+            <mj-column align="start" padding="0 40px">
+              <mj-text background-color="grey" color="#fff" font-color="#ffffff" font-family="Poppins, Ariel" font-size="38px" font-style="bold" font-weight="700px" line-height="48px" letter-spacing="0.19px" align="start" padding="0, 25px">
+                We build brands,<br />realtions & trust.
+              </mj-text>
+            </mj-column>
+          </mj-section padding="0 0 0px 0px">
+          <mj-section padding="0 0 0px 5px">
+            <mj-column padding="0">
+              <mj-button class="button" background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="start" href="https://google.com">Get started</mj-button>
+              <mj-column>
+          </mj-section>
+        </mj-column>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <mj-section padding-top="25px">
+      <mj-column>
+        <mj-text align="center" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="32px" font-style="normal" font-weight="700" line-height="42px">
+          Who we are
+        </mj-text>
+        <mj-text align="center" color="#939393" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px" padding="20px 25px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit vehicula dui sit amet ligula cursus. dolor sit amet dolor adipiscing.
+        </mj-text>
+        <mj-button class="button" background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="center" href="https://google.com" padding="20px 25px">Read more</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section display="flex" width="600px" height="82px" padding="20px 40px" align="center">
+      <mj-column>
+        <mj-text align="center" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="32px" font="normal" font-weight="700" line-height="42px">
+          Actually how it works
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-wrapper>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image src="./assets/process.png" alt="" / border-radius="4px" flex-shrink="0" width="150px" height="150px">
+        </mj-column>
+        <mj-column>
+          <mj-text font-color="#191919" font-family="Poppins, Arial, sans-serif" font-size="22px" font-style="normal" font-weight="700" line-height="32px" padding="0">
+            Research prospect
+          </mj-text>
+          <mj-text font-color="939393" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px" padding="10px 0 10px 0" align="start">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button class="button" background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="start" href="https://google.com" padding="10px 0 10px 0">Read more</mj-button>
+        </mj-column>
+        <mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text font-color="#191919" font-family="Poppins, Arial, sans-serif" font-size="22px" font-style="normal" font-weight="700" line-height="32px" padding="0">
+            Deliver products
+          </mj-text>
+          <mj-text font-color="939393" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px" padding="10px 0 10px 0" align="start">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button class="button" background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="start" href="https://google.com" padding="10px 0 10px 0">Read more</mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="./assets/process2.png" alt="" / border-radius="4px" flex-shrink="0" width="150px" height="150px">
+        </mj-column>
+        <mj-section>
+    </mj-wrapper>
+
+
+
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="32px" font="normal" font-weight="700" line-height="42px">
+          We specialized in
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column padding="0" width="250px" height="224px">
+          <mj-section padding="0">
+            <mj-column padding="0">
+              <mj-image src="./assets/icon4.png" alt="" / border-radius="4px" width="50px" height="50px" flex-shrink="0">
+                <mj-column>
+          </mj-section>
+
+          <mj-text font-color="#191919" align="center" font-family="Poppins, Arial, sans-serif" font-size="18px" font-style="normal" font-weight="700" line-height="28px">
+            Marketing automation
+          </mj-text>
+          <mj-text font-color="#939393" align="center" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="center" href="https://google.com" padding="10px 0 10px 0">Read more</mj-button>
+        </mj-column>
+
+        <mj-column padding="0" width="250px" height="224px">
+          <mj-section padding="0">
+            <mj-column padding="0">
+              <mj-image src="./assets/icon1.png" alt="" / border-radius="4px" width="50px" height="50px" flex-shrink="0">
+                <mj-column>
+          </mj-section>
+
+          <mj-text font-color="#191919" align="center" font-family="Poppins, Arial, sans-serif" font-size="18px" font-style="normal" font-weight="700" line-height="28px">
+            Task management
+          </mj-text>
+          <mj-text font-color="#939393" align="center" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="center" href="https://google.com" padding="10px 0 10px 0">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding-bottom="0">
+      <mj-section padding="0">
+        <mj-column padding="0" width="250px" height="224px">
+          <mj-section padding="0">
+            <mj-column padding="0">
+              <mj-image src="./assets/icon5.png" alt="" / border-radius="4px" width="50px" height="50px" flex-shrink="0">
+                <mj-column>
+          </mj-section>
+
+          <mj-text font-color="#191919" align="center" font-family="Poppins, Arial, sans-serif" font-size="18px" font-style="normal" font-weight="700" line-height="28px">
+            Sales messaging
+          </mj-text>
+          <mj-text font-color="#939393" align="center" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="center" href="https://google.com" padding="10px 0 10px 0">Read more</mj-button>
+        </mj-column>
+
+        <mj-column padding="0" width="250px" height="224px">
+          <mj-section padding="0">
+            <mj-column padding="0">
+              <mj-image src="./assets/icon6.png" alt="" / border-radius="4px" width="50px" height="50px" flex-shrink="0">
+                <mj-column>
+          </mj-section>
+
+          <mj-text font-color="#191919" align="center" font-family="Poppins, Arial, sans-serif" font-size="18px" font-style="normal" font-weight="700" line-height="28px">
+            Budgeting tools
+          </mj-text>
+          <mj-text font-color="#939393" align="center" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="center" href="https://google.com" padding="10px 0 10px 0">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section display="flex" width="600px" height="380px" padding="20px 40px" align="center">
+      <mj-column>
+        <mj-image src="./assets/SingleImage.png" alt="" / flex-shrink="0">
+      </mj-column>
+    </mj-section>
+
+    <mj-section display="flex" width="600px" height="82px" padding="20px 40px" align="center">
+      <mj-column>
+        <mj-text align="center" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="32px" font="normal" font-weight="700" line-height="42px">
+          Work we have done
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-wrapper align="center">
+      <mj-section padding="20px 40px 0 40px">
+        <mj-column>
+          <mj-image src="./assets/PortfolioImage1.png" alt="" / flex-shrink="0">
+        </mj-column>
+        <mj-column>
+          <mj-image src="./assets/PortfolioImage2.png" alt="" / flex-shrink="0">
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0px 20px" align="center">
+      <mj-section align="center">
+        <mj-column padding-bottom="0">
+          <mj-section align="center" padding-bottom="0">
+            <mj-column>
+              <mj-image src="./assets/PortfolioImage3.png" alt="" / flex-shrink="0" align="center">
+            </mj-column>
+            <mj-column>
+              <mj-image src="./assets/PortfolioImage4.png" alt="" / flex-shrink="0" align="center">
+            </mj-column>
+            <mj-column>
+              <mj-image src="./assets/PortfolioImage5.png" alt="" / flex-shrink="0" align="center">
+            </mj-column>
+
+          </mj-section>
+    </mj-wrapper>
+
+    <mj-section display="flex" width="600px" height="82px" padding="10px 40px" align="center">
+      <mj-column>
+        <mj-text align="center" color="#191919" font-family="Poppins, Arial, sans-serif" font-size="32px" font="normal" font-weight="700" line-height="42px">
+          What we post
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="0">
+      <mj-section padding="0">
+        <mj-column padding="0" width="250px" height="224px">
+          <mj-section padding="0">
+            <mj-column padding="0">
+              <mj-image src="./assets/blogimage1.png" alt="" / border-radius="4px" flex-shrink="0">
+                <mj-column>
+          </mj-section>
+
+          <mj-text font-color="#191919" align="start" font-family="Poppins, Arial, sans-serif" font-size="17px" font-style="normal" font-weight="700" line-height="30px">
+            Improving performance of an online store
+          </mj-text>
+          <mj-text font-color="#939393" align="start" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px" padding-top="0">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="start" href="https://google.com">Read more</mj-button>
+        </mj-column>
+
+        <mj-column padding="0" width="250px" height="224px">
+          <mj-section padding="0">
+            <mj-column padding="0">
+              <mj-image src="./assets/BlogImage2.png" alt="" / border-radius="4px" flex-shrink="0">
+                <mj-column>
+          </mj-section>
+
+          <mj-text font-color="#191919" align="start" font-family="Poppins, Arial, sans-serif" font-size="17px" font-style="normal" font-weight="700" line-height="30px">
+            How to build and launch powerful websites
+          </mj-text>
+          <mj-text font-color="#939393" align="start" font-family="Poppins, Arial, sans-serif" font-size="14px" font-style="normal" font-weight="400" line-height="24px" padding-top="0">
+            Lorem ipsum dolor sit amet, consectetur elie Duis sit.
+          </mj-text>
+          <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="start" href="https://google.com">Read more</mj-button>
+        </mj-column>
+      </mj-section>
+      </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-url="./assets/calltoaction1.png" padding-bottom="50px">
+      <mj-column padding-top="0px">
+
+        <mj-text align="center" color="#fff" font-family="Poppins, Arial, sans-serif" font-size="34px" font="bold" font-weight="700" line-height="48px" letter-spacing="0.19px" padding="15px 100px 20px 100px">
+          Trust the experts for all your business needs
+        </mj-text>
+
+        <mj-button background-color="#ff3838" font-color="#ffffff" font-family="Poppins, Arial, sans-serif" border-radius="50px" font-style="normal" font-weight="700" line-height="26px" align="center" href="https://google.com" padding="0px 0 10px 0">Get started</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-group padding="0" width="230px" align="center">
+          <mj-section padding-bottom="0px">
+            <mj-column padding="0">
+              <mj-image src="./assets/instagram.png" alt="" / flex-shrink="0" width="45px" height="45px" padding="0">
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image src="./assets/twitter.png" alt="" / flex-shrink="0" width="45px" height="45px" padding="0">
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image src="./assets/facebook.png" alt="" / flex-shrink="0" width="45px" height="45px" padding="0">
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image src="./assets/sociallink.png" alt="" / flex-shrink="0" width="45px" height="45px" padding="0">
+            </mj-column>
+          </mj-section>
+          <mj-group>
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section padding="0px 100px">
+      <mj-column padding="0">
+        <mj-text color="#939393" font-family="Poppins, Arial, sans-serif" align="center" font-size="14px" font-style="normal" font-weight="400" line-height="24px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Duis sit vehicula dui sit amet ligula cursus.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+      <mj-section align="center">
+        <mj-column>
+          <mj-text font-size="14px" align="center" font-family="Poppins, Arial, sans-serif" font-style="normal" font-weight="400" line-height="24px">
+            <a href="http://example.com/privacy"  style="color: #939393; text-decoration: underline;">Privacy</a>
+          </mj-text>
+        </mj-column>
+        <mj-column >
+          <mj-text font-size="14px" align="center" font-family="Poppins, Arial, sans-serif" font-style="normal" font-weight="400" line-height="24px">
+            <a href="http://example.com/account"  style="color: #939393; text-decoration: underline;">Account</a>
+          </mj-text>
+        </mj-column>
+        <mj-column >
+          <mj-text font-size="14px" align="center" font-family="Poppins, Arial, sans-serif" font-style="normal" font-weight="400" line-height="24px">
+            <a href="http://example.com/unsubscribe" style="color: #939393; text-decoration: underline;">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    <mj-section padding="10px 100px">
+      <mj-column padding="0">
+        <mj-image src="./assets/logo.png" alt="" / flex-shrink="0" padding="0" width="137px" height="30px" align="center">
+      </mj-column>
+    </mj-section>
+
+
+
+    <!-- Your email content goes here -->
+    </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
